@@ -1,0 +1,184 @@
+ <!doctype html>
+ <html>
+ <head>
+   <meta charset='utf-8'>
+   <meta name="viewport" content="initial-scale=1">
+   <title>Kchongbang | Startseite</title>
+      <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+     <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+ </head>
+ <body>
+   <div class="header-container">
+     <div class="top-add">
+       <marquee onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+       <a href="https://www.stepstone.de/stellenangebote--Werkstudent-m-w-Informatik-Programmierung-von-Workflows-Managementsoftware-Essen-TRIMET-Aluminium-SE--5315062-inline.html?suid=88f66ad9-24b6-42ba-9630-22e1dea48d00&rltr=4_4_25_dynrl_m_0_0" target="_blank">&#171;Werkstudent (m/w) Informatik / Programmierung von Workflows Managementsoftware&#171;</a>
+       </marquee>
+     </div>
+    <header>
+      <img class="header-img" src="img/HBV-logo.png" usemap="#logo" alt="LOGO">
+      <map name="logo">
+        <area shape="rect" coords="0,50,200,100" alt="HBV Logo" href="https://www.hs-bremerhaven.de">
+      </map>
+    </header>
+    <nav id="main-menu">
+        <div class="page-wrap">
+          <ul id="menu">
+            <li><a class="active" href="#">STARTSEITE</a></li>
+            <li><a href='/index.html'>INF/WINF</a>  </li>
+            <li><a href='../step2018team12/index.html'>TEAM</a>  </li>
+            <li><a href="https://informatik.hs-bremerhaven.de/docker10796/">DOKCER</a></li>
+            <li class="dropdown">
+              <a href="#"><span class="dropbtn">AUFGABEN</span></a>
+              <div class="dropdown-content">
+                <a href="#">Aufgabe1</a>
+                <a href="#">Aufgabe2</a>
+                <a href="#">Aufgabe3</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="small-nav" id="small-nav">
+           <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <div class="overlay-content">
+                 <a href="index.html">Startseite</a>
+                 <a href="/index.html">Inf/Winf</a>
+                 <a href="../step2018team12/index.html">Team</a>
+                 <a href="https://informatik.hs-bremerhaven.de/docker10796/">Docker</a>
+               </div>
+        </div>
+    </nav>
+    <script>
+     function openNav() {
+               document.getElementById("myNav").style.width = "100%";
+               }
+     function closeNav() {
+               document.getElementById("myNav").style.width = "0%";
+                   }
+     </script>
+   </div>
+
+<!--==========================Social media icons======================-->
+<div class="icon">
+  <a href="javascript:void(0)" onclick="openBar()"><i class="fa fa-chevron-circle-up"></i></a>
+</div>
+
+<div id="icon-bar" class="icon-bar">
+      <a  href="javascript:void(0)" onclick="closeBar()"><i class="fa fa-close"></i></a>
+      <a class="facebook" href="#"><i class="fa fa-facebook-square"></i></a>
+      <a class="youtube" href="#"><i class="fa fa-youtube-square"></i></a>
+      <a class="twitter" href="#"><i class="fa fa-twitter-square"></i></a>
+</div>
+
+  <script>
+    function openBar() {
+      document.getElementById("icon-bar").style.height = "335px";
+
+    }
+    function closeBar() {
+      document.getElementById("icon-bar").style.height = "0%";
+    }
+  </script>
+
+
+
+<div class="main-container">
+  <div class="body-header">
+    <h4>Kchongbang &#187; Startseite</h4>
+  </div>
+  <img class="main-img" src="img/main-img.jpg" alt="">
+  <div class="l-side">
+    <h4>Kajiman Chongbang</h4>
+    <h5>Wirtchaftsinformatik</h5>
+    <p>Step Project 2018 / Team 12</p>
+  </div>
+  <div class="r-side">
+    <h4>Web development</h4>
+    <p>
+      Web development is the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web-based internet applications (web apps) electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web engineering, web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development.
+    </p>
+    <p>
+       Among web professionals, "web development" usually refers to the main non-design aspects of building web sites: writing markup and coding. Most recently Web development has come to mean the creation of content management systems (CMS). These CMS can be made from scratch, proprietary or open source. In broad terms the CMS acts as middleware between the database and the user through the browser. A principle benefit of a CMS is that it allows non-technical people to make changes to their web site without having technical knowledge.
+    </p>
+  </div>
+</div>
+
+<div class="footer-container">
+  <div class="footer-div">
+    <h3 class="footer-head">Navigation Menu</h3>
+      <ul>
+        <li><a href="#">Startseite</a></li>
+        <li><a href="#">Informatik/Wirstchaftsinformatik</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="https://informatik.hs-bremerhaven.de/docker10796/">Myocker</a></li>
+        <li><a href="https://informatik.hs-bremerhaven.de/docker10767/">Teamocker</a></li>
+        <li>Aufgaben</li>
+        <li>
+          <ul>
+            <li><a href="#">Aufgabe1</a></li>
+            <li><a href="#">Aufgabe2</a></li>
+            <li><a href="#">Aufgabe3</a> </li>
+          </ul>
+        </li>
+      </ul>
+  </div>
+  <div class="footer-div">
+    <h3 class="footer-head">Important Links</h3>
+    <ul>
+      <li><a href="#">die Seestadt</a> </li>
+      <li><a href="#">Hochschule am Meer</a> </li>
+      <li><a href="#">Ausländerbehörde</a> </li>
+      <li><a href="#">Melderamt</a> </li>
+      <li><a href="#">Gesundheitsamt</a> </li>
+      <li><a href="#">Ortspolizeibehörde</a> </li>
+    </ul>
+  </div>
+  <div class="footer-div">
+    <h3 class="footer-head">Development tools</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Javascript</li>
+        <li>Bootstrap</li>
+        <li>jQuery</li>
+        <li>Bash Scripting</li>
+      </ul>
+  </div>
+  <div class="footer-div">
+      <img src="img/me.jpg" class="img-circle img-responsive" alt=""><br>
+  </div>
+</div>
+
+
+<!--=========================JavaScript for sticky navbar==================-->
+<script>
+  window.onscroll = function() {myFunction()};
+  var navbar = document.getElementById("main-menu");
+  var small =document.getElementById('small-nav');
+  var sticky = navbar.offsetTop;
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky");
+      navbar.classList.add("navbar-center");
+      small.classList.remove("small-nav");
+      small.classList.add("small-nav-center");
+    } else {
+      navbar.classList.remove("sticky");
+      navbar.classList.remove("navbar-center");
+      small.classList.remove("small-nav-center");
+      small.classList.add("small-nav");
+    }
+  }
+</script>
+ </body>
+ </html>
